@@ -1,0 +1,80 @@
+.maindiv{
+display: flex;
+flex-direction: row;
+}
+.lefticons{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+    
+.icon1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: darkgrey;
+    padding: 15px;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    font-size: larger;
+
+}
+.midbod{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+.content{
+    margin-top: 60px;
+}
+.navdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+   margin-right: 20px;
+ 
+}
+.menuitems{
+    display: flex;
+    justify-content: space-around;
+gap: 30px;
+padding: 10px;
+color: #c60c0c;
+}
+.picture{
+    height: 5px;
+    width: 1px;
+    opacity: 80%;
+}
+
+.name{
+    font-weight: bolder;
+    font-size: 60px;
+font-family: Georgia, 'Times New Roman', Times, serif;    color: #3c1832;
+
+}
+.desig1{
+    color: #38462a;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.desig2{
+    color: #503916;
+    font-size: 20px;
+}
+body{
+background-color: azure;
+}
+
+.picture{
+    height: 10px;
+    width: 10px;
+    max-width: 50px;
+    max-height: 50px;
+}
